@@ -8,7 +8,7 @@ class Sudoku_GUI:
     def __init__(self, master, game):
         self.game = game
         self.master = master
-        self.master.title('SUDUKO')
+        self.master.title('SUDOKU')
         self.master.geometry('760x860')
         self.master.config(bg='gray20')
         self.master.resizable(False, False)
